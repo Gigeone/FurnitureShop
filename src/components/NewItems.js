@@ -21,7 +21,7 @@ const NewItems = () => {
             <div className="hidden lg:flex items-center">
               <a
                 className="hover:border-b border-primary lg:items-center font-medium transition-all"
-                href="#"
+                href="/"
               >
                 {link}
               </a>

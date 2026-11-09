@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="section bg-primary text-white">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between border-b border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14">
-          <a className="mb-6 lg:mb-0" href="#">
+          <a className="mb-6 lg:mb-0" href="/">
             <img src={Logo} alt="" />
           </a>
           <div className="flex gap-x-4">
@@ -21,7 +21,9 @@ const Footer = () => {
                   className="w-12 h-12 text-2xl bg-gray-700 hover:bg-accent rounded-full flex justify-center items-center transition-all"
                   key={index}
                 >
-                  <a href="#">{item.icon}</a>
+                  <a href={item.href} target="_blank" rel="noopener noreferrer" aria-label="Follow FurniShop">
+                    {item.icon}
+                  </a>
                 </div>
               )
             })}
