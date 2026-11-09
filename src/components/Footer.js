@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center">
-          &copy; FurniShop 2022 - All Rights Reserved.
+          &copy; FurniShop 2024 - All Rights Reserved.
         </p>
       </div>
     </footer>
